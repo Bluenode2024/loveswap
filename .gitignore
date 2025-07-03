@@ -1,0 +1,7 @@
+# IDEA
+.idea
+*.iml
+
+# OS
+.DS_Store
+Desktop.ini
