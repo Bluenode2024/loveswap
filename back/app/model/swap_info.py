@@ -1,3 +1,5 @@
+from typing import Optional
+
 from pydantic import BaseModel
 
 
@@ -20,4 +22,4 @@ class SwapRequest(BaseModel):
     gender: int
     major: str
     user_profile: ProfileInfo
-    prefer_profile: ProfileInfo
+    prefer_profile: Optional[ProfileInfo] = None
