@@ -1,0 +1,6 @@
+.idea/*
+build/
+DerivedData/
+*.DS_Store
+.AppleDouble
+.LSOverride
